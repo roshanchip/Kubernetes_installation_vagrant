@@ -104,9 +104,9 @@ curl https://raw.githubusercontent.com/projectcalico/calico/v3.28.2/manifests/cu
 # vim custom-resources.yaml
 
 kubectl create -f custom-resources.yaml
-
-``` or
 kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
+``` 
+
 ### To install metrics server
 
 ```bash
